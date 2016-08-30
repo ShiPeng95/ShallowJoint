@@ -60,4 +60,6 @@ chieseTranfer.py is the code to transfer the the original data to the specific v
 ## Exec
 There are some scripts for run the tasks.
 
+For comparison, we set the random seed as 1.
+
 

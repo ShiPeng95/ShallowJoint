@@ -1315,7 +1315,6 @@ unsigned compute_length_for_label_relevant(const vector<unsigned>& truth, const 
 
 int main(int argc, char** argv) {
   // We set rand seed == 1 here for comparison
-  //cnn::Initialize(argc, argv , 2842580401);
   cnn::Initialize(argc,argv,1);
   cerr << "COMMAND:";
   for (unsigned i = 0; i < static_cast<unsigned>(argc); ++i) cerr << ' ' << argv[i];
